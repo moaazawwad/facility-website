@@ -1,0 +1,397 @@
+
+.home{
+
+background-image: url(images/post-2.jpg);
+background-size: cover;
+}
+
+
+
+
+.navbar li
+{
+    font-size: 16px;
+    padding-left: 32px;
+    font-weight: 650;
+}
+.border-bottom {
+    border-bottom: .3px solid #b6babd36 !important;
+}
+.wordHome{
+    color: #f25454;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #f25454 !important;
+}
+i{
+    cursor: pointer;
+}
+i:hover{
+    color: #f25454;
+
+}
+
+.home-contant h2{
+    width:80% ;
+    font-size: 70px;
+}
+
+.zindex9{
+    z-index: 99999999999999999;
+}
+
+.weakFONT{
+    color: #999;
+}
+.line{
+    width: 32px;
+    height: 1px;
+    background-color: black;
+ margin: auto;
+ transition: width 1s;
+}
+
+.about-us:hover .line{
+    width: 60px;
+}
+.ourteamline:hover .line{
+    width: 60px;
+}
+.Servicesline:hover .line{
+    width: 60px;
+}
+
+.getline:hover .line{
+    width: 60px;
+}
+.Client:hover .line{
+    width: 60px;
+}
+.block:hover .redhov{
+    color: #f25454;
+}
+
+.progress{
+    height: 4px;
+}
+
+
+ul{
+    list-style: none;
+}
+.box{
+    width: 30%;
+
+}
+.redh3 h5:hover{
+    color: #f25454;
+}
+
+.line-nav{
+    position: relative;
+}
+
+.settings{
+    background-color: #1a1a1a;
+}
+
+.settings:hover{
+background-color: #403f3f;
+}
+
+
+.arrow{
+ background-color: transparent;
+ transition: background-color 0.5s;
+ color: white;
+}
+.arrow:hover{
+    background-color: white;
+
+}
+
+
+.arrowtwo{
+    top: 57%;
+    left: 0%;
+ background-color: transparent;
+ transition: background-color 0.5s;
+ color: white;
+}
+.arrowtwo:hover{
+    background-color: white;
+}
+
+
+
+
+
+.behind-about{
+    position: relative;
+}
+.behind-about::before{
+font-size: 90px;
+    z-index: 44;
+    content: "A";
+color: rgba(0, 0, 0, 0.086);  
+  position: absolute;
+    top: -50%;
+    left: 47%;
+}
+
+
+.behind-our{
+    position: relative;
+}
+.behind-our::before{
+font-size: 90px;
+    z-index: 44;
+    content: "O";
+color: rgba(0, 0, 0, 0.086);  
+  position: absolute;
+    top: -30%;
+    left: 47%;
+}
+
+.behind-get{
+    position: relative;
+}
+.behind-get::before{
+font-size: 90px;
+    z-index: 44;
+    content: "G";
+color: rgba(0, 0, 0, 0.056);  
+  position: absolute;
+    top: -70%;
+    left: 44%;
+}
+
+
+
+
+.behind-service{
+    position: relative;
+}
+.behind-service::before{
+font-size: 90px;
+    z-index: 44;
+    content: "S";
+color: rgba(0, 0, 0, 0.086);  
+  position: absolute;
+    top: -30%;
+    left: 47%;
+}
+
+.mother{
+    transition: all .5s;
+}
+
+.mother:hover .circlipics{
+ opacity: 1;
+    transform: scale(1.1);
+}
+
+
+.circlipics{
+    width: 120px;
+    opacity: 65%;
+}
+
+
+.c-line{
+    background-color: #f06d6d;
+    
+}
+
+.pic{
+overflow: hidden;
+position: relative;
+
+}
+
+
+.picfour img{
+    width: 100%;
+    transition: transform 1s;
+}
+.picfour:hover .onepic img{
+    transform: scale(1.1);
+}
+.onepic{
+    overflow: hidden;
+}
+
+
+.layerfour{
+    background-color: #ed6565b4;
+    opacity: 0;
+    width: 100%;
+    transition: opacity  .5s;
+}
+.layerfour:hover{
+    opacity: 1;
+}
+.layerfour i{
+    color: beige;
+padding: 8px;
+}
+
+.picfour:hover .texthov{
+    color: #f25454;
+}
+.btn-danger{
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #f06d6d;
+    /* background-color: #bb2d3b; */
+    border-color: #f06d6d;
+}
+
+.nineser  i{
+    color: #f06d6d;
+}
+.get  i{
+    color: #f06d6d;
+}
+.nineser P{
+    color: #999;
+}
+.get{
+    background-color: #FAFAFA;
+}
+.btn{
+    background-color: #f25454;
+    color: white;
+}
+.btn:hover{
+    background-color:#f38383;
+    color: white;
+}
+
+.form{
+    height: 50px;
+}
+.mes{
+    height: 100px;
+  padding-bottom: 70px;
+}
+
+.first{
+    animation-name: first;
+    animation-duration: 2s;
+}
+@keyframes first{
+    0%{ width: 0%;}
+    100%{ width: 80%;}
+}
+
+.footer{
+background-color: #1a1a1a;
+}
+.footer p{
+    color: #b0b0b0;
+}
+.footer i{
+    color: white;
+padding: 8px;}
+.lastpart i:hover
+{
+
+color: #f25454;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.footer a:hover{
+    color: #f25454
+}
+.btnfoter{
+color: #b0b0b0;
+background-color: transparent;
+
+}
+.btnfoter:hover{
+    color: #f25454;
+    background-color: transparent;
+border-color: #f06d6d;}
+
+.lastpart{
+    background-color: #1a1a1a;
+}
+.lastpart i{
+    color: #fff;
+    padding: 5px;
+}
+.lastpart p {
+    color: #B0B0B0;
+}
+.form-control:focus
+ {
+    color: #f25454;
+    background-color: #fff;
+    border: #f06d6d 2px solid;
+box-shadow: none;
+}
+
+.last-butom-home{
+    background-color: transparent;
+    height: 40px;
+    width: 20px;
+    border: #fff 2px solid;
+}
+
+.redp:hover{
+    color: #f25454;
+}
+.last-butom-inside{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 5px;
+    top: 92.5%;
+    right: 49.2%;
+    position: absolute;
+  animation: up 2s infinite;
+}
+
+@keyframes up {
+    0%{ top: 92.5%;}
+    30%{ top: 93%;}
+    50%{ top: 94.2%;}
+    70%{ top: 94.7% ; opacity: 0;}
+    70%{ top: 92.5% ;}
+    100%{ top: 92.5%;}
+}
+.vv{
+    cursor: pointer;
+}
+.vv:hover{
+    color: #f25454;
+}
+.another{
+    background-image: url(images/dotted-map.png);
+    background-size: 100%;
+}
+.small-circle{
+    background-color: #f06d6d71;
+    height: 40px;
+    width: 40px;
+    left: 47%;
+    top: -7%;
+    
+}
+.small-circle::after{
+    content:" <" ;
+    transform: rotate(90deg);
+    font-size: 30px;
+    position: absolute;
+    left: 30%;
+    top: -15%;
+    color: white;
+    font-weight: bold;
+}
+
